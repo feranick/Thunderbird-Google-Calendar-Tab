@@ -1,16 +1,16 @@
 {
   "manifest_version": 2,
+  "name": "Google Calendar Tab",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.1.5",
+  "author": "Nicola Ferralis",
+  "homepage_url": "https://github.com/feranick/Thunderbird-Google-Calendar-Tab/",
   "applications": {
     "gecko": {
-      "id": "feranick@hotmail.com",
+      "id": "feranick.google-calendar-tab@addons.thunderbird.net",
       "strict_min_version": "78.0"
     }
   },
-  "name": "Google Calendar Tab",
-  "description": "__MSG_extensionDescription__",
-  "author": "[Nicola Ferralis]",
-  "homepage_url": "https://github.com/feranick/Thunderbird-Google-Calendar-Tab/",
-  "version": "0.1.2",
   "default_locale": "en",
   "icons": {
     "48": "skin/google_calendar_icon.svg",
