@@ -17,7 +17,7 @@
     "96": "skin/google_calendar_icon.svg"
   },
   "browser_action": {
-    "allowed_spaces": [ "mail", "calendar", "tasks" ],
+    "allowed_spaces": [ "mail", "calendar", "chat", "tasks", "addressbook" ],
     "default_title": "Google Calendar",
     "default_icon": "skin/google_calendar_icon.svg"
   },
