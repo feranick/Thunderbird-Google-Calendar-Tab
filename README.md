@@ -12,4 +12,4 @@ In linux the xpi file can be created with the following commands
 * `git clone https://github.com/feranick/Thunderbird-Google-Calendar-Tab`
 * `cd ./Thunderbird-Google-Calendar-Tab`
 * `VERSION=$(cat ./manifest.json | jq --raw-output '.version')`
-* `zip -r "../Google-Contacts-Tab-${VERSION}-tb.xpi" *`
+* `zip -r "../Google-Calendar-Tab-${VERSION}-tb.xpi" *`
