@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "Scheda Google Calendar",
+    "message": "Onglet Google Calendar",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Scheda Google Calendar dalla tua barra degli spazi.",
+    "message": "Onglet Google Calendar depuis la barre d'espaces.",
     "description": "Description of the extension."
   },
   "toolbarButtonTitle": {

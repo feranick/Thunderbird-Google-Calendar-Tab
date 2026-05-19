@@ -1,6 +1,6 @@
 # Google Calendar Tab
 Unofficial Google Calendar add-on for Thunderbird, it adds a button in Spaces that opens a Google Calendar tab in Thunderbird.
-The [home page](https://addons.mozilla.org/thunderbird/addon/thundercalendar/) of the extension contains some pictures and reviews.
+The [home page](https://addons.thunderbird.net/en-US/thunderbird/addon/google-calendar-spaces-tab/) of the extension contains the latest code.
 
 #### Installing 
 A new Google Calendar icon should appear in the Spaces Toolbar of Thunderbird. Click to open.

@@ -1,6 +1,14 @@
 {
+  "extensionName": {
+    "message": "Google Calendar-Tab",
+    "description": "Name of the extension."
+  },
   "extensionDescription": {
-    "message": "Fügt eine Schaltfläche zum Öffnen von Google Calendar in einem neuen Tab hinzu.",
+    "message": "Google Calendar-Tab aus Ihrer Spaces-Symbolleiste.",
     "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "Google Calendar",
+    "description": "Hover title for the Spaces Toolbar button."
   }
 }

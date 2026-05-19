@@ -1,5 +1,5 @@
 browser.spacesToolbar.addButton('GoogleCalendar', {
-    title: "Google Calendar",
+    title: browser.i18n.getMessage("toolbarButtonTitle"),
     defaultIcons: "skin/google_calendar_icon.svg",
     url: "https://calendar.google.com/"
 });

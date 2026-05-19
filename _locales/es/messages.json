@@ -1,6 +1,14 @@
 {
+  "extensionName": {
+    "message": "Pestaña de Google Calendar",
+    "description": "Name of the extension."
+  },
   "extensionDescription": {
-    "message": "Añade un botón que abre Google Calendar en una pestaña nueva.",
+    "message": "Pestaña de Google Calendar desde la barra de espacios.",
     "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "Google Calendar",
+    "description": "Hover title for the Spaces Toolbar button."
   }
 }
