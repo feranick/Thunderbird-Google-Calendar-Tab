@@ -1,14 +1,54 @@
 {
   "extensionName": {
-    "message": "Onglet Google Calendar",
+    "message": "Onglet Google Agenda",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Onglet Google Calendar depuis la barre d'espaces.",
+    "message": "Onglet Google Agenda depuis votre barre d'outils Spaces.",
     "description": "Description of the extension."
   },
   "toolbarButtonTitle": {
-    "message": "Google Calendar",
+    "message": "Google Agenda",
     "description": "Hover title for the Spaces Toolbar button."
+  },
+  "optionsTitle": {
+    "message": "Paramètres de l'onglet Google Agenda",
+    "description": "Title of the options page."
+  },
+  "optionsNotificationsLabel": {
+    "message": "Afficher les notifications pour les événements à venir",
+    "description": "Label for the notifications toggle."
+  },
+  "optionsNotificationsDesc": {
+    "message": "Lorsque cette option est activée, une notification de bureau apparaît avant le début d'un événement. L'onglet Google Agenda doit être ouvert.",
+    "description": "Description under the notifications toggle."
+  },
+  "optionsLeadLabel": {
+    "message": "Me prévenir",
+    "description": "Label preceding the lead-time selector."
+  },
+  "optionsLeadUnit": {
+    "message": "minutes avant",
+    "description": "Unit shown after the lead-time selector."
+  },
+  "optionsStatusSaved": {
+    "message": "Enregistré.",
+    "description": "Confirmation shown after a setting is saved."
+  },
+  "notificationTitle": {
+    "message": "Google Agenda",
+    "description": "Title shown in the desktop notification."
+  },
+  "notificationEventBody": {
+    "message": "$EVENT$ commence dans $MINUTES$ minutes.",
+    "description": "Notification body for an upcoming event.",
+    "placeholders": {
+      "event": { "content": "$1", "example": "Réunion d'équipe" },
+      "minutes": { "content": "$2", "example": "10" }
+    }
+  },
+  "notificationEventFallback": {
+    "message": "Un événement",
+    "description": "Fallback event name when none could be parsed."
   }
 }

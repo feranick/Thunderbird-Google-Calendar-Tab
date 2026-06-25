@@ -10,5 +10,45 @@
   "toolbarButtonTitle": {
     "message": "Google Calendar",
     "description": "Hover title for the Spaces Toolbar button."
+  },
+  "optionsTitle": {
+    "message": "Google Calendar Tab Settings",
+    "description": "Title of the options page."
+  },
+  "optionsNotificationsLabel": {
+    "message": "Show notifications for upcoming events",
+    "description": "Label for the notifications toggle."
+  },
+  "optionsNotificationsDesc": {
+    "message": "When enabled, a desktop notification appears before an event starts. The Google Calendar tab must be open.",
+    "description": "Description under the notifications toggle."
+  },
+  "optionsLeadLabel": {
+    "message": "Notify me",
+    "description": "Label preceding the lead-time selector."
+  },
+  "optionsLeadUnit": {
+    "message": "minutes before",
+    "description": "Unit shown after the lead-time selector."
+  },
+  "optionsStatusSaved": {
+    "message": "Saved.",
+    "description": "Confirmation shown after a setting is saved."
+  },
+  "notificationTitle": {
+    "message": "Google Calendar",
+    "description": "Title shown in the desktop notification."
+  },
+  "notificationEventBody": {
+    "message": "$EVENT$ starts in $MINUTES$ minutes.",
+    "description": "Notification body for an upcoming event.",
+    "placeholders": {
+      "event": { "content": "$1", "example": "Team sync" },
+      "minutes": { "content": "$2", "example": "10" }
+    }
+  },
+  "notificationEventFallback": {
+    "message": "An event",
+    "description": "Fallback event name when none could be parsed."
   }
 }

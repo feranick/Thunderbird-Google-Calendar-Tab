@@ -1,14 +1,54 @@
 {
   "extensionName": {
-    "message": "Google Calendar-Tab",
+    "message": "Google-Kalender-Tab",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Google Calendar-Tab aus Ihrer Spaces-Symbolleiste.",
+    "message": "Google-Kalender-Tab aus Ihrer Spaces-Symbolleiste.",
     "description": "Description of the extension."
   },
   "toolbarButtonTitle": {
-    "message": "Google Calendar",
+    "message": "Google Kalender",
     "description": "Hover title for the Spaces Toolbar button."
+  },
+  "optionsTitle": {
+    "message": "Google-Kalender-Tab-Einstellungen",
+    "description": "Title of the options page."
+  },
+  "optionsNotificationsLabel": {
+    "message": "Benachrichtigungen für bevorstehende Termine anzeigen",
+    "description": "Label for the notifications toggle."
+  },
+  "optionsNotificationsDesc": {
+    "message": "Wenn aktiviert, erscheint vor Beginn eines Termins eine Desktop-Benachrichtigung. Der Google-Kalender-Tab muss geöffnet sein.",
+    "description": "Description under the notifications toggle."
+  },
+  "optionsLeadLabel": {
+    "message": "Benachrichtigen",
+    "description": "Label preceding the lead-time selector."
+  },
+  "optionsLeadUnit": {
+    "message": "Minuten vorher",
+    "description": "Unit shown after the lead-time selector."
+  },
+  "optionsStatusSaved": {
+    "message": "Gespeichert.",
+    "description": "Confirmation shown after a setting is saved."
+  },
+  "notificationTitle": {
+    "message": "Google Kalender",
+    "description": "Title shown in the desktop notification."
+  },
+  "notificationEventBody": {
+    "message": "$EVENT$ beginnt in $MINUTES$ Minuten.",
+    "description": "Notification body for an upcoming event.",
+    "placeholders": {
+      "event": { "content": "$1", "example": "Team-Meeting" },
+      "minutes": { "content": "$2", "example": "10" }
+    }
+  },
+  "notificationEventFallback": {
+    "message": "Ein Termin",
+    "description": "Fallback event name when none could be parsed."
   }
 }

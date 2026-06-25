@@ -4,11 +4,51 @@
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Scheda Google Calendar dalla tua barra degli spazi.",
+    "message": "Scheda Google Calendar dalla barra degli strumenti Spaces.",
     "description": "Description of the extension."
   },
   "toolbarButtonTitle": {
     "message": "Google Calendar",
     "description": "Hover title for the Spaces Toolbar button."
+  },
+  "optionsTitle": {
+    "message": "Impostazioni della scheda Google Calendar",
+    "description": "Title of the options page."
+  },
+  "optionsNotificationsLabel": {
+    "message": "Mostra notifiche per i prossimi eventi",
+    "description": "Label for the notifications toggle."
+  },
+  "optionsNotificationsDesc": {
+    "message": "Se attivato, viene mostrata una notifica sul desktop prima dell'inizio di un evento. La scheda Google Calendar deve essere aperta.",
+    "description": "Description under the notifications toggle."
+  },
+  "optionsLeadLabel": {
+    "message": "Avvisami",
+    "description": "Label preceding the lead-time selector."
+  },
+  "optionsLeadUnit": {
+    "message": "minuti prima",
+    "description": "Unit shown after the lead-time selector."
+  },
+  "optionsStatusSaved": {
+    "message": "Salvato.",
+    "description": "Confirmation shown after a setting is saved."
+  },
+  "notificationTitle": {
+    "message": "Google Calendar",
+    "description": "Title shown in the desktop notification."
+  },
+  "notificationEventBody": {
+    "message": "$EVENT$ inizia tra $MINUTES$ minuti.",
+    "description": "Notification body for an upcoming event.",
+    "placeholders": {
+      "event": { "content": "$1", "example": "Riunione del team" },
+      "minutes": { "content": "$2", "example": "10" }
+    }
+  },
+  "notificationEventFallback": {
+    "message": "Un evento",
+    "description": "Fallback event name when none could be parsed."
   }
 }
